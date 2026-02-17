@@ -71,7 +71,8 @@ Tokens stored in HTTP-only cookies
 
 Middleware-based route protection
 
-📂 Installation <br/>
+📂 Installation <br/><br/>
+
 1️⃣ Clone the repository
 git clone https://github.com/NaderGh78/mern-secure-auth
 cd mern-secure-auth
@@ -92,11 +93,27 @@ npm install
 
 Create a .env file in the backend folder:
 
-MONGO_URI=
-JWT_SECRET=
-JWT_REFRESH_SECRET=
-FIREBASE_API_KEY=
-RESEND_API_KEY=
+PORT=<br/>
+
+MONGO_URI=<br/>
+
+JWT_ACCESS_SECRET=<br/>
+
+JWT_REFRESH_SECRET=<br/>
+
+NODE_ENV=<br/>
+
+VITE_FIREBASE_API_KEY=<br/>
+
+RESEND_API_KEY=<br/>
+
+PROJECT_NAME=<br/>
+
+WELCOME_USER_MSG=<br/>
+
+PROJECT_URL=<br/>
+
+CLIENT_URL=<br/>
 
 4️⃣ Run the project
 
@@ -112,5 +129,4 @@ npm start
 ⚠️ Note
 
 Email verification and password reset are demonstrated using a test email setup.
-
 Due to current email service limitations, these features are not fully enabled for public users in the live demo.
