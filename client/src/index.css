@@ -1,0 +1,206 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  min-height: calc(100vh - 60px);
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 60px);
+}
+
+.page-content {
+  flex: 1;
+}
+
+.custom-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 120px);
+}
+
+.top-menu {
+  height: 60px;
+  line-height: 60px;
+  background-color: #ddd;
+}
+
+.top-menu ul li a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: all .2s;
+}
+
+.top-menu ul li span svg {
+  visibility: hidden;
+}
+
+.top-menu ul li:hover a {
+  color: green !important;
+}
+
+.top-menu ul li span.show-icon svg {
+  visibility: visible;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: #222 !important;
+}
+
+a.link-active {
+  color: green !important;
+}
+
+.footer {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 1.7rem;
+  background-color: #ddd;
+}
+
+form {
+  width: 500px;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 1rem !important;
+}
+
+button.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  padding: 6px 0;
+  color: #25292e;
+  background-color: transparent;
+  font-weight: 700;
+  border: 1px solid #d1d9e0;
+  border-radius: 4px;
+  box-shadow: 0px 1px 0px 0px #1f23280a;
+  transition: all .2s;
+}
+
+button.google-btn:hover {
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+}
+
+button.google-btn:focus {
+  outline: none;
+}
+
+div.or-div {
+  position: relative;
+  margin: 5px 0;
+  text-align: center;
+}
+
+div.or-div span {
+  position: relative;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-color: #fff;
+  z-index: 1;
+}
+
+div.or-div::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #d1d9e0;
+}
+
+.verify .inputs-array input {
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+}
+
+.reset-password .form-group {
+  position: relative;
+}
+
+.reset-password .form-group svg {
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* ====================================== */
+/* ============== TODOS ================= */
+/* ====================================== */
+
+.todos {
+  width: 500px;
+}
+
+/* edit-input */
+.todos .top-todos form {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.todos .top-todos form input {
+  margin-bottom: 0 !important;
+  flex: 3;
+  outline: none;
+  height: 40px;
+  padding-left: 15px;
+}
+
+.todos .top-todos form button {
+  margin-bottom: 0 !important;
+  flex: 1;
+  height: 40px;
+}
+
+.todos ul.todos-list li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: space-between;
+  background-color: #3e413e;
+}
+
+.todos ul.todos-list li.no-todo {
+  background-color: transparent;
+}
+
+.todos ul.todos-list li input {
+  width: 67%;
+  outline: none;
+  height: 40px;
+  border: none;
+  padding-left: 15px;
+  background-color: #959595;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.todos ul.todos-list button.save-btn {
+  width: 132px;
+  margin-right: 0 !important;
+}
