@@ -71,7 +71,7 @@ Tokens stored in HTTP-only cookies
 
 Middleware-based route protection
 
-📂 Installation <br/><br/>
+📂 Installation <br/>
 
 1️⃣ Clone the repository
 git clone https://github.com/NaderGh78/mern-secure-auth
@@ -124,7 +124,7 @@ npm run dev
 
 Frontend:
 
-npm start
+npm run dev
 
 ⚠️ Note
 
