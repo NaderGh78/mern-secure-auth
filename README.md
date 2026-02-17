@@ -4,6 +4,9 @@
 
 A full-featured authentication system built with the MERN stack, focusing on secure token-based authentication and real-world auth workflows.
 
+--------------------------
+--------------------------
+
 🚀 Features
 
 Email & password authentication (bcrypt hashing)
@@ -24,6 +27,9 @@ User profile management
 
 Simple Todo feature (Redux Toolkit)
 
+--------------------------
+--------------------------
+
 🧪 How to Test
 
 Register with email & password
@@ -35,6 +41,9 @@ Access the protected profile page
 Use the Todo feature after authentication
 
 ⚠️ Email verification and password reset are limited in the live demo due to email service restrictions.
+
+--------------------------
+--------------------------
 
 🛠 Tech Stack
 Frontend
@@ -61,6 +70,9 @@ Firebase (Google OAuth)
 
 Resend (Email service)
 
+--------------------------
+--------------------------
+
 🔐 Authentication Flow
 
 Short-lived Access Token
@@ -70,6 +82,9 @@ Long-lived Refresh Token
 Tokens stored in HTTP-only cookies
 
 Middleware-based route protection
+
+--------------------------
+--------------------------
 
 📂 Installation <br/>
 
@@ -81,13 +96,17 @@ cd mern-secure-auth
 
 Server:
 
+cd server
 npm install
 
 
 client:
 
-cd client
+cd client <br/>
 npm install
+
+--------------------------
+--------------------------
 
 3️⃣ Environment Variables
 
@@ -115,17 +134,20 @@ PROJECT_URL=<br/>
 
 CLIENT_URL=<br/>
 
+--------------------------
+--------------------------
+
 4️⃣ Run the project
 
 Server:
 
-cd server
+cd server <br/>
 npm run dev
 
 
 Client:
 
-cd client
+cd client <br/>
 npm run dev
 
 ⚠️ Note
