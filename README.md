@@ -79,12 +79,12 @@ cd mern-secure-auth
 
 2️⃣ Install dependencies
 
-Backend:
+Server:
 
 npm install
 
 
-Frontend:
+client:
 
 cd client
 npm install
@@ -117,13 +117,15 @@ CLIENT_URL=<br/>
 
 4️⃣ Run the project
 
-Backend:
+Server:
 
+cd server
 npm run dev
 
 
-Frontend:
+Client:
 
+cd client
 npm run dev
 
 ⚠️ Note
